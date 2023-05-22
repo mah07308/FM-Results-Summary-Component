@@ -99,6 +99,12 @@ body {
   background-color: hsl(224, 30%, 27%);
   color: white;
   font-size: 1rem;
+  border: none;
+}
+
+.result-summary-half button:hover,
+.result-summary-half button:active {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .result-summary-half h2 {
@@ -134,7 +140,6 @@ body {
 }
 
 .summary-item p {
-  /* font-size: 1rem; */
   flex-grow: 2;
   text-align: end;
   margin-right: 0.5rem;
